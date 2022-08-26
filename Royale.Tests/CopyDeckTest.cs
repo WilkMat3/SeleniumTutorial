@@ -31,7 +31,7 @@ namespace Royale.Tests
             Pages.PagesWrapper.DeckBuilder.CopySuggestedDeck();
           
             Pages.PagesWrapper.CopyDeck.Yes();
-          
+           // testing merges
             // new comment
             Assert.That(Pages.PagesWrapper.CopyDeck.Map.CopiedMessage.Displayed);
         }
