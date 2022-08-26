@@ -17,7 +17,7 @@ namespace Royale.Tests
 {
     public class CopyDeckTest : TestBase
     {
-       
+       //stashing
 
         [Test, Category("copydeck")]
         public void User_can_copy_the_deck()
