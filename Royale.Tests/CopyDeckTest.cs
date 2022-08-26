@@ -23,7 +23,7 @@ namespace Royale.Tests
         public void User_can_copy_the_deck()
         {
             
-           
+           // adding comments
             Pages.PagesWrapper.DeckBuilder.GoTo().AddClassManually();
 
 
