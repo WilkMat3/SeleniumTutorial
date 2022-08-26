@@ -23,7 +23,7 @@ namespace Royale.Tests
         public void User_can_copy_the_deck()
         {
             
-           // adding comments
+           
             Pages.PagesWrapper.DeckBuilder.GoTo().AddClassManually();
 
 
@@ -32,7 +32,7 @@ namespace Royale.Tests
           
             Pages.PagesWrapper.CopyDeck.Yes();
           
-            
+            // new comment
             Assert.That(Pages.PagesWrapper.CopyDeck.Map.CopiedMessage.Displayed);
         }
               [Test, Category("copydeck")]
